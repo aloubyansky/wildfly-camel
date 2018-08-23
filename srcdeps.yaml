@@ -8,48 +8,48 @@
 #     mvn org.srcdeps.mvn:srcdeps-maven-plugin:init
 #
 configModelVersion: 2.3
-repositories:
-  org.jboss.galleon:
-    includes:
-    - org.jboss.galleon
-    urls:
-    - git:https://github.com/wildfly/galleon.git
-    buildVersionPattern: .*-SNAPSHOT
-    buildRef: revision-cd4b1d3cf65949544d551db238f56217b5ae2888
-    buildArguments:
-    - -Dlicense.skip
-    - -Dcheckstyle.skip
-  org.wildfly:
-    includes:
-    - org.wildfly
-    urls:
-    - git:https://github.com/ppalaga/wildfly.git
-    buildVersionPattern: .*-SNAPSHOT
-    buildRef: revision-5e7f811939dc5b793135f2a08d7b5a9860211be1
-    buildArguments:
-    - -Prelease
-    - -Denforcer.skip
-    - -Dlicense.skip
-    - -Dcheckstyle.skip
-  org.wildfly.core:
-    includes:
-    - org.wildfly.core
-    urls:
-    - git:https://github.com/ppalaga/wildfly-core.git
-    buildVersionPattern: .*-SNAPSHOT
-    buildRef: revision-555a9057993a5174cd3dcdeac670ec83ca989079
-    buildArguments:
-    - -Prelease
-    - -Denforcer.skip
-    - -Dlicense.skip
-    - -Dcheckstyle.skip
-  org.wildfly.galleon-plugins:
-    includes:
-    - org.wildfly.galleon-plugins
-    urls:
-    - git:https://github.com/ppalaga/galleon-plugins.git
-    buildVersionPattern: .*-SNAPSHOT
-    buildRef: revision-56ea2a714a04db62086b16a2386a4ec8f0439dc8
-    buildArguments:
-    - -Dlicense.skip
-    - -Dcheckstyle.skip
+#repositories:
+#  org.jboss.galleon:
+#    includes:
+#    - org.jboss.galleon
+#    urls:
+#    - git:https://github.com/wildfly/galleon.git
+#    buildVersionPattern: .*-SNAPSHOT
+#    buildRef: revision-cd4b1d3cf65949544d551db238f56217b5ae2888
+#    buildArguments:
+#    - -Dlicense.skip
+#    - -Dcheckstyle.skip
+#  org.wildfly:
+#    includes:
+#    - org.wildfly
+#    urls:
+#    - git:https://github.com/ppalaga/wildfly.git
+#    buildVersionPattern: .*-SNAPSHOT
+#    buildRef: revision-5e7f811939dc5b793135f2a08d7b5a9860211be1
+#    buildArguments:
+#    - -Prelease
+#    - -Denforcer.skip
+#    - -Dlicense.skip
+#    - -Dcheckstyle.skip
+#  org.wildfly.core:
+#    includes:
+#    - org.wildfly.core
+#    urls:
+#    - git:https://github.com/ppalaga/wildfly-core.git
+#    buildVersionPattern: .*-SNAPSHOT
+#    buildRef: revision-555a9057993a5174cd3dcdeac670ec83ca989079
+#    buildArguments:
+#    - -Prelease
+#    - -Denforcer.skip
+#    - -Dlicense.skip
+#    - -Dcheckstyle.skip
+#  org.wildfly.galleon-plugins:
+#    includes:
+#    - org.wildfly.galleon-plugins
+#    urls:
+#    - git:https://github.com/ppalaga/galleon-plugins.git
+#    buildVersionPattern: .*-SNAPSHOT
+#    buildRef: revision-56ea2a714a04db62086b16a2386a4ec8f0439dc8
+#    buildArguments:
+#    - -Dlicense.skip
+#    - -Dcheckstyle.skip
